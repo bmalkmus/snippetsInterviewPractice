@@ -43,7 +43,7 @@ let repeats = {"unique": 0, "repeats": 0}
 let unique = true
 
 function Test(){
-    for (let i = 0; i < 100000; i++){
+    for (let i = 0; i < 101000; i++){
         let temp = RandomString()
         if(map[temp]){
                 map[temp]+=1
