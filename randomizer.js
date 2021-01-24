@@ -62,4 +62,24 @@ function Test(){
 
 console.log(Test())
 
+/* 
+green dot: x=2000, y=10000
+    y=.0025x^2    ratio: .2
+blue dot: x=100, y=10000
+    y=x^2     ratio:.01
+black dot: x=200, y=10000
+    y=.25x^2    ratio: .02
+red dashed: x=10000, y=10000
+    y=.0001x^2    ratio: 1
+black solid: x=10000, y=100
+    y=.000001x^2    ratio: .01
+blue solid: x=10000, y=2000
+    y=.00002x^2    ratio: .2
+green solid: x=10000, y=200
+    y=.000002x^2    ratio: .02
+
+for change in y, its: (new Y/old Y) * slope
+for change in x, its: slope /  (new X/old X)^2 
+*/
+
 
