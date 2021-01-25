@@ -78,8 +78,13 @@ blue solid: x=10000, y=2000
 green solid: x=10000, y=200
     y=.000002x^2    ratio: .02
 
+### For exponential ###
 for change in y, its: (new Y/old Y) * slope
 for change in x, its: slope /  (new X/old X)^2 
+
+### for linear ###
+change in x, multiply by (old x/new x) 
+change in y, divide by (old y/new y) 
 */
 
 
